@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "cors": "^2.8.5",
+    "dot": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "live-server": "^1.1.0",
+    "needle": "^3.1.0"
+  },
+  "name": "weather-app-v2",
+  "version": "2.0.0",
+  "description": "Responsive JavaScript weather app",
+  "main": "script.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "Jesse Heath aka heathology",
+  "license": "GPL-3.0",
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
